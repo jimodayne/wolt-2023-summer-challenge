@@ -1,6 +1,5 @@
 import {useFormContext} from "react-hook-form";
 import {validateProps} from "../utils";
-import "react-datetime/css/react-datetime.css";
 
 interface FormItemProps {
   name: string;
