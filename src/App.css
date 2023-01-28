@@ -5,7 +5,7 @@
 }
 
 .app {
-  max-width: 400px;
+  max-width: 450px;
   border: 1px solid var(--primary);
   margin: 40px auto;
 }
@@ -37,12 +37,14 @@
 .form-item__input {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .form-item__error {
-  height: 12px;
-  font-size: 12px;
+  height: 16px;
+  font-size: 14px;
   color: var(--red);
+  margin-top: -8px;
 }
 
 .suffix {
@@ -54,6 +56,7 @@
 .submit-btn {
   cursor: pointer;
   margin-top: 12px;
+  font-size: 16px;
   height: 32px;
   border: 1px solid var(--primary);
   background-color: var(--white);
@@ -73,7 +76,8 @@
 
 input {
   border: 1px solid var(--primary);
-  padding: 4px;
+  padding: 4px 6px;
+  font-size: 16px;
 }
 
 .shipping-fee {
